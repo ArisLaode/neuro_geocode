@@ -1,4 +1,4 @@
-Usage example
+Run project on Local:
 ---
 * Python version
 [![Python versions](https://img.shields.io/pypi/pyversions/yandex-geocoder.svg)](https://pypi.python.org/pypi/yandex-geocoder)
