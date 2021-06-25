@@ -7,7 +7,6 @@ Yandex Geocoder requires an API developer key, you can get it [here](https://dev
 pip install virtualenv
 ```
 ```bash
-pip install virtualenv
 virtualenv -p python3 env
 ```
 
@@ -51,11 +50,12 @@ flask run
 Running via Docker
 ---
 
-Build Image
+*   Build Image
 ```bash
 docker image build -t docker-neuro .
 ```
-Running Container
+*  Running Container
 ```bash
 docker run -p 5000:5000 docker-neuro
 ```
+*  Test your api project
