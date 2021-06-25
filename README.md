@@ -52,6 +52,10 @@ flask run
      *  coordinates = Россия, Московская область, городской округ Истра, А-108, Минско-Волоколамский перегон, 58-й километр
   *  Click "Send"
 
+* You can see the result in /log/app.log or check stream result use command: 
+    ```bash
+    tail -f /log/app.log
+    ```
 Running via Docker
 ---
 
