@@ -1,9 +1,10 @@
 Usage example
 ---
+* Python version
 [![Python versions](https://img.shields.io/pypi/pyversions/yandex-geocoder.svg)](https://pypi.python.org/pypi/yandex-geocoder)
 [![PyPi](https://img.shields.io/pypi/v/yandex-geocoder.svg)](https://pypi.python.org/pypi/yandex-geocoder)
 
-Yandex Geocoder requires an API developer key, you can get it [here](https://developer.tech.yandex.com/services/) to use this library.
+* Yandex Geocoder requires an API developer key, you can get it [here](https://developer.tech.yandex.com/services/) to use this library.
 
 * change ".env-example" to ".env"
 * update ".env" :
