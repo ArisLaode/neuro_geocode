@@ -1,0 +1,33 @@
+INFO:root: Result yandex maps coordinate : (('37.587093'), ('55.733974'))
+INFO:werkzeug:127.0.0.1 - - [24/Jun/2021 23:18:25] "GET /coordinate HTTP/1.1" 200 -
+INFO:root: Result yandex maps address : Россия, Москва, улица Льва Толстого, 16
+INFO:werkzeug:127.0.0.1 - - [24/Jun/2021 23:18:33] "GET /address HTTP/1.1" 200 -
+INFO:root: Result yandex maps address : Россия, Москва, улица Льва Толстого, 16
+INFO:werkzeug:127.0.0.1 - - [24/Jun/2021 23:19:52] "GET /address HTTP/1.1" 200 -
+INFO:root: Result yandex maps coordinate : (('37.587093'), ('55.733974'))
+INFO:werkzeug:127.0.0.1 - - [24/Jun/2021 23:19:59] "GET /coordinate HTTP/1.1" 200 -
+INFO:root: Result yandex maps coordinate : (('37.587093'), ('55.733974'))
+INFO:werkzeug:127.0.0.1 - - [24/Jun/2021 23:59:18] "POST /v1/coordinates HTTP/1.1" 200 -
+INFO:root: Result yandex maps coordinate : (('37.587093'), ('55.733974'))
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2021 00:19:47] "POST /v1/coordinates HTTP/1.1" 200 -
+INFO:root: Result yandex maps coordinate : (('37.587093'), ('55.733974'))
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2021 00:26:17] "POST /v1/coordinates HTTP/1.1" 200 -
+INFO:root: Result yandex maps coordinate : (('37.587093'), ('55.733974'))
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2021 00:35:32] "POST /v1/coordinates HTTP/1.1" 200 -
+INFO:root: Result yandex maps coordinate : (('37.587093'), ('55.733974'))
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2021 00:42:43] "POST /v1/coordinates HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2021 00:43:53] "[31m[1mPOST /v1/coordinates HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2021 00:44:05] "[31m[1mPOST /v1/address HTTP/1.1[0m" 405 -
+INFO:root: Result yandex maps address : Россия, Москва, улица Льва Толстого, 16
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2021 00:44:59] "POST /v1/address HTTP/1.1" 200 -
+INFO:root: Result yandex maps coordinate : (('36.440429'), ('55.964957'))
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2021 01:22:32] "POST /v1/coordinates HTTP/1.1" 200 -
+INFO:root: Result yandex maps address : Россия, Московская область, городской округ Истра, А-108, Минско-Волоколамский перегон, 58-й километр
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2021 01:22:55] "POST /v1/address HTTP/1.1" 200 -
+INFO:root: Result yandex maps coordinate : (coordinates('36.440429'), coordinates('55.964957'))
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2021 01:24:46] "POST /v1/coordinates HTTP/1.1" 200 -
+INFO:root: Result yandex maps coordinate : (coordinates('36.440429'), coordinates('55.964957'))
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2021 01:59:04] "POST /v1/coordinates HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2021 02:01:34] "POST /v1/coordinates HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2021 10:16:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2021 10:16:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
