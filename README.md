@@ -2,6 +2,11 @@ Usage example
 ---
 Yandex Geocoder requires an API developer key, you can get it [here](https://developer.tech.yandex.com/services/) to use this library.
 
+* change ".env-example" to ".env"
+* update ".env" :
+    ```bash
+    API_KEY_YANDEX = "your-api-key"
+    ```
 * create environment
 ```bash
 pip install virtualenv
