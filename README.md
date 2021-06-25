@@ -1,5 +1,8 @@
 Usage example
 ---
+[![Python versions](https://img.shields.io/pypi/pyversions/yandex-geocoder.svg)](https://pypi.python.org/pypi/yandex-geocoder)
+[![PyPi](https://img.shields.io/pypi/v/yandex-geocoder.svg)](https://pypi.python.org/pypi/yandex-geocoder)
+
 Yandex Geocoder requires an API developer key, you can get it [here](https://developer.tech.yandex.com/services/) to use this library.
 
 * change ".env-example" to ".env"
@@ -8,12 +11,16 @@ Yandex Geocoder requires an API developer key, you can get it [here](https://dev
     API_KEY_YANDEX = "your-api-key"
     ```
 * create environment
-```bash
-pip install virtualenv
-```
-```bash
-virtualenv -p python3 env
-```
+    ```bash
+    pip install virtualenv
+    ```
+    ```bash
+    virtualenv -p python3 env
+    ```
+* active environment:
+    ```bash
+    source env/bin/activate
+    ```
 
 * install all package needed
 ```bash
