@@ -17,6 +17,7 @@ def index():
 
 @app_yandex.route('/v1/coordinates', methods=['POST'])
 def coordinate():
+    """Fetch coordinates (longitude, latitude) for passed address."""
     try:
         if request.method == 'POST':
             coordinates = request.form['coordinates']
@@ -35,6 +36,7 @@ def coordinate():
 
 @app_yandex.route('/v1/address', methods=['POST'])
 def address():
+    """Fetch address for passed coordinates."""
     try:
         if request.method == 'POST':
             decimal_one = request.form['decimal_one']
